@@ -1,0 +1,242 @@
+body
+{
+    /* background-color: blueviolet; */
+    /* margin: none !important; */
+}
+/* Main-para */
+.main-div
+{
+    justify-content: center ;
+    display: flex;
+/* background-color: purple; */
+}
+.first-div
+{display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 10%;
+/* background-color: pink; */
+}
+.fi-icon-m
+{
+}
+.main-part1{
+margin-bottom: 20em;
+}
+.main-icons 
+{
+margin-top: 4rem;
+}
+
+
+/* Second Main Div */
+.second-div
+{
+    margin-top: 30px;
+    /* margin-left: 1em; */
+    width :20%;
+/* background-color: red; */
+}
+.Wname
+{
+    /* margin-left: 10px; */
+font-size: 24px;
+
+}
+.age-group
+{
+    display: flex;
+}
+.age{
+    font-weight: bold;
+    margin-top: 20px;
+    /* padding: 50px 0px; */
+    width: 50%;
+}
+.Recent
+{
+font-size: 18px;
+font-weight: bold;
+}
+.small-text
+{
+    color: grey;
+}
+.Withdrawl
+{
+    margin: 10px 0px;
+}
+.oday
+{
+    margin-top: 40px;
+}
+.bb
+{
+    font-weight: bold;
+}
+.Starting
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.income
+{
+    color: blue;
+    font-weight: bold;
+}
+.hrc
+{
+    margin-top: 15px;
+    width: 80%;
+}
+.Goal{
+    margin: 30px 50px 50px 0px;
+    padding: 5px 30px 5px 0px;
+    border-bottom: 2px solid blue;
+}
+
+.main-goal
+{
+    display: flex;
+}
+.aa{
+    font-size: 18px;
+    margin: 12px 0px 2px 0px;
+}
+.goal-amount
+{
+    font-size: 24px;
+    font-weight: bold;
+}
+.third-div
+{
+    margin-top: 4rem;
+    width:45%;
+/* background-color: green; */
+}
+.fourth-div
+{
+width: 30%;
+/* background-color: aqua; */
+}   
+.icona
+{
+    color: grey;
+    margin: 15px 15px;
+
+}
+i:hover{
+color: blue;
+}
+.Retirement
+{
+    font-size: 18px;
+    font-weight: bold   ;
+    }
+    .content{
+        margin: 10px 0px;
+    }
+    .content-pad
+    {
+        margin: 10px 0px;
+    }
+    .top{
+        margin-top: 20px;
+    }
+    .Update
+    {
+        border-radius: 8px;
+        background-color: blue;
+        color: white;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        padding: 12px 25px;
+        margin: 20px 0px;
+        /* border: 1px solid black; */
+    }
+    .f-fo
+    {width: 70%;
+        margin-top: 4rem;
+
+    }
+    .View
+    {
+        color: blue;
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        margin: 10px 0 30px 0   ;
+    }
+    .View1
+    {
+        color: blue;
+        display: flex;
+        /* justify-content: center; */
+        width: 90%;
+    }
+    .limited
+    {
+margin:5px 0 ;
+    }
+    .mobile-view
+    {
+        display: none;
+    }
+@media screen and (max-width:500px) {
+body{
+    margin: 0 !important;
+}
+    .first-div
+{display: none;
+}
+.goal2{
+    display: none;
+}
+.main-div
+{
+    display: block;
+    justify-content: center;
+    margin-left: 4rem;
+}
+.second-div
+{
+    /* display: block; */
+    width: 100%;
+}
+.third-div
+{
+    width: 100%;
+}
+.fourth-div
+{
+    width: 100%;
+}
+.main-goal
+{
+    display:block;
+}
+.Update
+{
+    width: 100%;
+}
+.goal1
+{
+ /* display: flex;    */
+    /* display: inline !important; */
+    width: 40%;
+}
+.mobile-view{
+    display: flex;
+}
+.areyou{
+    display: none;
+}
+.f-fo{
+    width: 80%;
+}
+.age-group{
+    display: block;
+
+}
+}
